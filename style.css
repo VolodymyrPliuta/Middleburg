@@ -10,18 +10,20 @@ html, body {
     font-family: 'BioRhyme', serif;
 }
 nav {
+    z-index: 1;
     width: 100%;
     background: #678d58;
     padding: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 10px black;
-    position: fixed;
+    position: fixed !important;/*position: fixed - leavs navigation on the page even if its scrolling */
     top: 0;
 }
 .container {
     width: 100%;
 }
 .front {
+    /*margin-top: 65px; - I need to add media for phone layout*/
     display: flex;
     width: 100%;
     height: 100vh;
@@ -54,10 +56,6 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-/*    width: 100%;
-    background: url("football.jpg");
-    color: black;
-    padding: 15px; */
 }
 .block {
     width: 85%;
@@ -108,10 +106,11 @@ header {
         left: 0;
         padding-left: 5%;
         padding-right: 5%;
-        width: 100% !important;
-        height: 100% !important;
+        width: 100% ;
+        height: 100% ;
     }
 
 h3{
     font-family: 'BioRhyme', serif;
 }
+@media screen and (max-width: 400px) {.front {margin-top: 65px;}}
