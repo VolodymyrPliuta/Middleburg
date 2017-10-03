@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ html, body {
     color: white;
     font-family: 'BioRhyme', serif;
 }
+
 nav {
     z-index: 1;
     width: 100%;
@@ -16,12 +18,14 @@ nav {
     padding: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 10px black;
-    position: fixed !important;/*position: fixed - leavs navigation on the page even if its scrolling */
+    position: fixed !important; /*position: fixed - leavs navigation on the page even if its scrolling */
     top: 0;
 }
+
 .container {
     width: 100%;
 }
+
 .front {
     /*margin-top: 65px; - I need to add media for phone layout*/
     display: flex;
@@ -33,13 +37,14 @@ nav {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 #catchphrase {
     margin: auto;
     width: 90%;
     max-width: 400px;
     padding: 20px;
     box-shadow: 0 0 15px black;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 header {
@@ -47,16 +52,23 @@ header {
     font-size: 2em;
     font-weight: bold;
 }
+
 #plans {
 
+<<<<<<< HEAD
    width: 100%;
     background: url("images/football.jpg");
+=======
+    width: 100%;
+    background: url("football.jpg");
+>>>>>>> 994d909452b002123da9c57b5fb8744dc04d260b
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
+
 .block {
     width: 85%;
     max-width: 750px;
@@ -65,35 +77,42 @@ header {
     background: #678d58;
     box-shadow: 0 0 25px black;
 }
+
 .block header {
     color: #fdd;
 }
+
 #contact {
     width: 100%;
-    min-height:200px;
+    min-height: 200px;
     padding: 20px;
     background: #fff;
     color: #000;
     text-align: center;
     box-shadow: inset 0 0 15px black;
 }
-#contact header{
+
+#contact header {
     text-align: center;
 }
-#contact .phone{
+
+#contact .phone {
     color: #729C62;
 }
-#contact .phone:hover{
+
+#contact .phone:hover {
     background: #7a7;
     color: black;
 }
-.gmap_canvas iframe{
-    height:10rem;
-    width:80%;
-    position:relative;
+
+.gmap_canvas iframe {
+    height: 10rem;
+    width: 80%;
+    position: relative;
     max-width: 100%;
     margin-bottom: 1.5rem;
 }
+<<<<<<< HEAD
 .map {
      overflow: hidden;
      margin-left: auto;
@@ -139,3 +158,29 @@ h3{
 @media screen and (min-width: 401px) and (max-width: 800px) {#plans{background: url("images/football-800large_2x.jpg");}}
 @media screen and (min-width: 801px) and (max-width: 1200px) {#plans{background: url("images/football-1600large_3x.jpg");}}
 
+=======
+
+.map {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map iframe {
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    font-family: 'BioRhyme', serif;
+}
+
+@media screen and (max-width: 400px) {
+    .front {
+        margin-top: 65px;
+    }
+}
+>>>>>>> 994d909452b002123da9c57b5fb8744dc04d260b
