@@ -55,13 +55,8 @@ header {
 
 #plans {
 
-<<<<<<< HEAD
    width: 100%;
     background: url("images/football.jpg");
-=======
-    width: 100%;
-    background: url("football.jpg");
->>>>>>> 994d909452b002123da9c57b5fb8744dc04d260b
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
