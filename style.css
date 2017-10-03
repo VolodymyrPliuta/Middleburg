@@ -27,7 +27,7 @@ nav {
     display: flex;
     width: 100%;
     height: 100vh;
-    background: url("backyard1.jpg");
+    background: url("images/backyard.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ header {
 #plans {
 
    width: 100%;
-    background: url("football.jpg");
+    background: url("images/football.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,23 +94,48 @@ header {
     max-width: 100%;
     margin-bottom: 1.5rem;
 }
-.map{
+.map {
+     overflow: hidden;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .map iframe {
+     padding:10px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+h3{
+    font-family: 'BioRhyme', serif;
+}
+@media screen and (max-width: 400px) {.front {margin-top: 65px;}}
+@media screen and (max-width: 800px) {.map {
         position: relative;
         padding-bottom: 75%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
-    }
-    .map iframe {
+    }}
+@media screen and (max-width: 800px){.map iframe {
         position: absolute;
         top: 0;
         left: 0;
         padding-left: 5%;
         padding-right: 5%;
         width: 100% ;
-        height: 100% ;
-    }
+        height: 50%;
+        display: block;
+        width:90%;
+        height:100%;
+        padding-left: 5%;
+        padding-right: 5%;
+}}
+/*media quries for backgroung pictures */
+@media screen and (max-width: 400px) {.front{background: url("images/backyard-400small_1x.jpg");}}
+@media screen and (min-width: 401px) and (max-width: 800px) {.front{background:url("images/backyard-800large_2x.jpg");}}
+@media screen and (min-width: 801px) and (max-width: 1200px) {.front{background:url("images/backyard-1600large_3x.jpg");}}
 
-h3{
-    font-family: 'BioRhyme', serif;
-}
-@media screen and (max-width: 400px) {.front {margin-top: 65px;}}
+@media screen and (max-width: 400px) {#plans{background: url("images/football-400small_1x.jpg");}}
+@media screen and (min-width: 401px) and (max-width: 800px) {#plans{background: url("images/football-800large_2x.jpg");}}
+@media screen and (min-width: 801px) and (max-width: 1200px) {#plans{background: url("images/football-1600large_3x.jpg");}}
+
