@@ -112,7 +112,6 @@ header {
     max-width: 100%;
     margin-bottom: 1.5rem;
 }
-<<<<<<< HEAD
 .map {
      overflow: hidden;
      margin-left: auto;
@@ -158,29 +157,3 @@ h3{
 @media screen and (min-width: 401px) and (max-width: 800px) {#plans{background: url("images/football-800large_2x.jpg");}}
 @media screen and (min-width: 801px) and (max-width: 1200px) {#plans{background: url("images/football-1600large_3x.jpg");}}
 
-=======
-
-.map {
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.map iframe {
-    padding:10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-h3 {
-    font-family: 'BioRhyme', serif;
-}
-
-@media screen and (max-width: 400px) {
-    .front {
-        margin-top: 65px;
-    }
-}
->>>>>>> 994d909452b002123da9c57b5fb8744dc04d260b
