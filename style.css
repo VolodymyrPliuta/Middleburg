@@ -145,11 +145,13 @@ h3{
         padding-right: 5%;
 }}
 /*media quries for backgroung pictures */
-@media screen and (max-width: 400px) {.front{background: url("images/backyard-400small_1x.jpg");}}
-@media screen and (min-width: 401px) and (max-width: 800px) {.front{background:url("images/backyard-800large_2x.jpg");}}
-@media screen and (min-width: 801px) and (max-width: 1200px) {.front{background:url("images/backyard-1600large_3x.jpg");}}
+@media screen and (max-width: 400px) {.front{background: url("images/backyard-1200small_1x.jpg");}}
+@media screen and (min-width: 401px) and (max-width: 800px) {.front{background:url("images/backyard-2400medium_2x.jpg");}}
+@media screen and (min-width: 801px) and (max-width: 1200px) {.front{background:url("images/backyard-4800large_3x.jpg");}}
+@media screen and (min-width: 1201px) {.font{background: url("images/backyard.jpg");}}
 
-@media screen and (max-width: 400px) {#plans{background: url("images/football-400small_1x.jpg");}}
-@media screen and (min-width: 401px) and (max-width: 800px) {#plans{background: url("images/football-800large_2x.jpg");}}
-@media screen and (min-width: 801px) and (max-width: 1200px) {#plans{background: url("images/football-1600large_3x.jpg");}}
+@media screen and (max-width: 400px) {#plans{background: url("images/football-1600small_1x.jpg");}}
+@media screen and (min-width: 401px) and (max-width: 800px) {#plans{background: url("images/football-2400medium_2x.jpg");}}
+@media screen and (min-width: 801px) and (max-width: 1200px) {#plans{background: url("images/football-4800large_3x.jpg");}}
+@media screen and (min-width: 1201px) {#plans{background: url("images/football.jpg");}}
 
